@@ -1,6 +1,6 @@
 ﻿namespace Api.WorkoutTimeMachine.Repositories
 {
-    public class Class1
+    public class Repository
     {
     }
 }

@@ -23,8 +23,6 @@ namespace Api.WorkoutTimeMachine
                 .AddEnvironmentVariables();
 
             LoggerFactory = loggerFactory;
-            LoggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            LoggerFactory.AddDebug();
 
             Configuration = builder.Build();
         }
@@ -38,7 +36,15 @@ namespace Api.WorkoutTimeMachine
 
         public void ConfigureServices(IServiceCollection services)
         {
+            Setup.AddLogging(services, LoggerFactory, Configuration);
+
             Setup.AddCors(services);
+
+            Setup.ConfigureDataLayer(services);
+
+            Setup.ConfigureRepositories(services);
+
+            Setup.ConfigureServices(services);
 
             Setup.AddMvcCore(services);
         }
