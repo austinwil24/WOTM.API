@@ -12,6 +12,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Api.WorkoutTimeMachine", "src\Api.WorkoutTimeMachine\Api.WorkoutTimeMachine.xproj", "{92F1D56A-7067-43B6-919E-7428B9579F1A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2A45FC6A-120B-46E9-8737-FE0759018A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.WorkoutTimeMachine.Test", "test\Api.WorkoutTimeMachine.Test\Api.WorkoutTimeMachine.Test.csproj", "{6A45F5BE-564B-4A51-BD97-A404266974EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.WorkoutTimeMachine.Controllers", "src\Api.WorkoutTimeMachine.Controllers\Api.WorkoutTimeMachine.Controllers.csproj", "{8DF60F71-618B-4AC4-8E80-9F27A245F59B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.WorkoutTimeMachine.Services", "src\Api.WorkoutTimeMachine.Services\Api.WorkoutTimeMachine.Services.csproj", "{80AFE41D-6B40-4275-9735-15AEC6E9212F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.WorkoutTimeMachine.Repositories", "src\Api.WorkoutTimeMachine.Repositories\Api.WorkoutTimeMachine.Repositories.csproj", "{9D6E8BA4-DA5B-4B3F-8589-AAE6AA1C8438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +32,31 @@ Global
 		{92F1D56A-7067-43B6-919E-7428B9579F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F1D56A-7067-43B6-919E-7428B9579F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F1D56A-7067-43B6-919E-7428B9579F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A45F5BE-564B-4A51-BD97-A404266974EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A45F5BE-564B-4A51-BD97-A404266974EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A45F5BE-564B-4A51-BD97-A404266974EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A45F5BE-564B-4A51-BD97-A404266974EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF60F71-618B-4AC4-8E80-9F27A245F59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF60F71-618B-4AC4-8E80-9F27A245F59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF60F71-618B-4AC4-8E80-9F27A245F59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF60F71-618B-4AC4-8E80-9F27A245F59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80AFE41D-6B40-4275-9735-15AEC6E9212F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80AFE41D-6B40-4275-9735-15AEC6E9212F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80AFE41D-6B40-4275-9735-15AEC6E9212F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80AFE41D-6B40-4275-9735-15AEC6E9212F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6E8BA4-DA5B-4B3F-8589-AAE6AA1C8438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6E8BA4-DA5B-4B3F-8589-AAE6AA1C8438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6E8BA4-DA5B-4B3F-8589-AAE6AA1C8438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6E8BA4-DA5B-4B3F-8589-AAE6AA1C8438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{92F1D56A-7067-43B6-919E-7428B9579F1A} = {1B467A8C-92CE-4E4D-9ACB-27C71547E2EA}
+		{6A45F5BE-564B-4A51-BD97-A404266974EE} = {2A45FC6A-120B-46E9-8737-FE0759018A59}
+		{8DF60F71-618B-4AC4-8E80-9F27A245F59B} = {1B467A8C-92CE-4E4D-9ACB-27C71547E2EA}
+		{80AFE41D-6B40-4275-9735-15AEC6E9212F} = {1B467A8C-92CE-4E4D-9ACB-27C71547E2EA}
+		{9D6E8BA4-DA5B-4B3F-8589-AAE6AA1C8438} = {1B467A8C-92CE-4E4D-9ACB-27C71547E2EA}
 	EndGlobalSection
 EndGlobal

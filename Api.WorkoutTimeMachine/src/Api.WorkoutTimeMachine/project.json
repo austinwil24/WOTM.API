@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.AspNetCore.Mvc": "1.0.1",
     "Microsoft.AspNetCore.Routing": "1.0.1",
@@ -18,7 +18,19 @@
   },
 
   "frameworks": {
-    "net461": { }
+    "net461": {
+      "dependencies": {
+        "Api.WorkoutTimeMachine.Controllers": {
+          "target": "project"
+        },
+        "Api.WorkoutTimeMachine.Repositories": {
+          "target": "project"
+        },
+        "Api.WorkoutTimeMachine.Services": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "buildOptions": {

@@ -307,3 +307,4 @@ $RECYCLE.BIN/
 *.jfm
 
 **/Logs
+project.fragment.lock.json
